@@ -25,3 +25,17 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+form main div input[type="button"]:active {
+  transform: translateX(3px) scale(0.9) translateY(-1px);
+  box-shadow: 0;
+
+}
+
+form main div input[type="button"] {
+  transition: all;
+  transition-duration: 200ms;
+}
+.calculator form input {
+
+  cursor: pointer;
+}
