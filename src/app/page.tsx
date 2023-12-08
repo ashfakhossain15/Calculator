@@ -10,9 +10,9 @@ export default function Home() {
             <div>
               <input type="text" name="display" id="" />
             </div>
-            <div className="flex gap-5 justify-around">
+            <div className="grid grid-cols-4 p-2 gap-5 justify-around ">
               <input
-                className="p-6 bg-slate-900 rounded-lg"
+                className=" w-full bg-slate-900 rounded-lg "
                 type="button"
                 value="AC"
               />
@@ -32,7 +32,7 @@ export default function Home() {
                 value="/"
               />
             </div>
-            <div className="flex gap-5 justify-around">
+            <div className="grid grid-cols-4 p-2 gap-5 justify-around">
               <input
                 className="p-6 bg-slate-900 rounded-lg"
                 type="button"
@@ -54,7 +54,7 @@ export default function Home() {
                 value="*"
               />
             </div>
-            <div className="flex gap-5 justify-around">
+            <div className="grid grid-cols-4 p-2 gap-5 justify-around">
               <input
                 className="p-6 bg-slate-900 rounded-lg"
                 type="button"
@@ -76,7 +76,7 @@ export default function Home() {
                 value="-"
               />
             </div>
-            <div className="flex gap-5 justify-around">
+            <div className="grid grid-cols-4 p-2 gap-5 justify-around">
               <input
                 className="p-6 bg-slate-900 rounded-lg"
                 type="button"
