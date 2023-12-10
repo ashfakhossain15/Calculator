@@ -27,13 +27,13 @@ const Home = () => {
     };
     buttons?.forEach((btn) => {
       btn.addEventListener("click", (event) => {
-        calculate(event?.target?.value);
+        calculate((event.target as HTMLInputElement).value);
       });
     });
   }, []);
   return (
     <div className="flex full-calculator bg-white flex-col items-center justify-center h-[100vh]">
-      <h1 className="text-4xl mb">Calculator</h1>
+      <h1 className="text-4xl text-black mb-5 font-bold font-i">Calculator</h1>
       <section className="container relative w-[370px] overflow-hidden backdrop-blur-xl bg-white/80 rounded-2xl border z-50 ">
         <div className="calculator">
           <form>
