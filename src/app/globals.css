@@ -17,6 +17,8 @@
 }
 
 body {
+  width: 100%;
+  overflow: hidden;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -43,7 +45,7 @@ body {
   background: linear-gradient(#2196f3, #31ff38);
   border-radius: 50%;
   transform: translate(250px, 150px);
-  z-index: 1;
+  overflow: hidden;
 }
 
 form main div input[type="button"] {

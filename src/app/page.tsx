@@ -32,7 +32,7 @@ const Home = () => {
     });
   }, []);
   return (
-    <div className="flex full-calculator overflow-hidden  bg-white flex-col items-center justify-center h-[100vh]">
+    <div className="flex full-calculator bg-white flex-col items-center justify-center h-[100vh]">
       <h1 className="text-4xl text-black mb-5 font-bold font-i">Calculator</h1>
       <section className="container relative w-[340px] md:w-[370px] overflow-hidden backdrop-blur-xl bg-white/80 rounded-2xl border z-50 ">
         <div className="calculator">
