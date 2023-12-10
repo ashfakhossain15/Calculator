@@ -43,16 +43,16 @@ body {
   background: linear-gradient(#2196f3, #31ff38);
   border-radius: 50%;
   transform: translate(250px, 150px);
-  z-index: -1;
+  z-index: 1;
 }
 
-form main div input[type="button"] {
+form main div button {
   transition: all;
   transition-duration: 200ms;
 }
 
-form main div input[type="button"]:active {
-  transform: translateX(3px) scale(0.9) translateY(-1px);
+form main div button:active {
+  transform: translateX(3px) scale(0.95) translateY(-1px);
   box-shadow: 0;
 }
 
